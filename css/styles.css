@@ -234,7 +234,7 @@ button {
 }
 
 .mobile-menu-addr {
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 .mobile-menu-addr-item {
@@ -723,7 +723,7 @@ and (min-width: 1158px),
 .portfolio-item {
     overflow: hidden;
     position: relative;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -797,6 +797,22 @@ and (min-width: 1158px),
     }
 }
 
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 @media screen and (min-width: 1158px) {
 
     .portfolio-item:hover,
@@ -807,22 +823,6 @@ and (min-width: 1158px),
     .portfolio-item:hover .overlay-text {
         transform: translateY(0);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .portfolio-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        margin-bottom: 8px;
-    }
-
-    .portfolio-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
     }
 }
 
